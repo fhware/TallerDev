@@ -1,11 +1,4 @@
 # ASP.NET
-- task: AzureWebApp@1
-  inputs:
-    azureSubscription: 'Aranda'
-    appType: 'webApp'
-    appName: 'webodiazaranda2'
-    package: '$(System.DefaultWorkingDirectory)/**/*.zip'
-    deploymentMethod: 'auto'
 # Build and test ASP.NET projects.
 # Add steps that publish symbols, save build artifacts, deploy, and more:
 # https://docs.microsoft.com/azure/devops/pipelines/apps/aspnet/build-aspnet-4
